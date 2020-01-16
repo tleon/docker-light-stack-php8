@@ -1,7 +1,7 @@
 # Nginx-Php-Mysql Docker stack for symfony 4+
 
 ## Description
-This stacks start the following containers :
+This stacks starts the following containers :
 * nginx => web server.
 * php => php-fpm interpreter for nginx.
 * mysql => database.
