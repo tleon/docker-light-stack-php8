@@ -17,6 +17,8 @@ This stacks starts the following containers :
   * `NGINX_PORT`
   * `ADMINER_PORT`
 * Create a new symfony app or copy one in `./apps` folder
+* Modify the symfony .env to allow doctrine to connect to the mysql container
+  * `DATABASE_URL=mysql://root:MYSQL_ROOT_PASSWORD@mysql:3306/MYSQL_DATABASE?serverVersion=5.7`
 * Start the containers with `docker-compose up -d`
 
 
