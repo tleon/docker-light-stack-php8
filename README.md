@@ -1,4 +1,4 @@
-# Nginx-Php-Mysql Docker stack for symfony 4+
+# Nginx-Php Docker stack for symfony 5+ php8
 
 ## Description
 This stacks starts the following containers :
