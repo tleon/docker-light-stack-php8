@@ -4,9 +4,9 @@ restart:
 
 composer-install:
 	docker-compose exec php bash -c "composer install"
-	
-database-create:
-	docker-compose exec php bash -c "bin/console d:d:c"
 
-fixtures-load:
-	docker-compose exec php bash -c "bin/console d:f:l"
+start: 
+	docker-compose up -d
+
+stop: 
+	docker-compose down
